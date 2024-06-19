@@ -29,3 +29,29 @@ header {
 nav {
     display: flex;
 }
+#hero {
+    background-image: url('../assets/images/heroimg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#hero-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    /* padding: 50px; */
+}
+#subtext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.subtext1 {
+    font-size: 70px;
+}
+#subtext2 {
+    font-size: 22px;
+}
