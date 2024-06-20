@@ -101,4 +101,5 @@ form {
 }
 #recentNews > div {
     display: flex;
+    column-gap: 20px;
 }
