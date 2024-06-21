@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 /* font style used for any other text */
 .roboto-light {
@@ -28,6 +30,28 @@ header {
 }
 nav {
     display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+#nav-right {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+#nav-right button {
+    border: 1px solid red;
+    padding: 20px;
+}
+#links {
+    column-gap: 30px;
+    display: flex;
+    /* justify-content: left; */
+}
+#links a {
+    text-decoration: none;
+    color: black;
 }
 #hero {
     background-image: url('../assets/images/heroimg.jpg');
@@ -44,10 +68,8 @@ nav {
 #subtext {
     color: white;
     padding: 30px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    text-align: left;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 .subtext1 {
     font-size: 70px;
@@ -97,7 +119,7 @@ form {
     background-size: cover;
 }
 #recentNews {
-    padding: 50px;
+    /* padding: 100px; */
 }
 #recentNews > div {
     display: flex;
